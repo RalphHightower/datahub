@@ -18,7 +18,7 @@ aiofiles==25.1.0
     # via unstructured-client
 aiohappyeyeballs==2.6.1
     # via aiohttp
-aiohttp==3.13.3
+aiohttp==3.13.4
     # via
     #   acryl-datahub
     #   aiobotocore
@@ -86,7 +86,7 @@ attrs==25.4.0
     #   pytest-docker
     #   referencing
     #   zeep
-authlib==1.6.9
+authlib==1.6.11
     # via
     #   acryl-datahub
     #   confluent-kafka
@@ -291,7 +291,7 @@ cramjam==2.11.0
     # via python-snappy
 croniter==6.0.0
     # via acryl-datahub-cloud
-cryptography==46.0.5
+cryptography==46.0.7
     # via
     #   acryl-datahub
     #   acryl-great-expectations
@@ -344,7 +344,7 @@ decorator==5.2.1
     # via
     #   gssapi
     #   ipython
-deepdiff==8.6.1
+deepdiff==8.6.2
     # via acryl-datahub
 deepmerge==2.0
     # via acryl-datahub
@@ -377,7 +377,7 @@ docutils==0.22.4
     # via readme-renderer
 duckdb==1.5.0
     # via acryl-datahub
-ecdsa==0.19.1
+ecdsa==0.19.2
     # via python-jose
 elasticsearch==7.13.4
     # via acryl-datahub
@@ -790,7 +790,7 @@ linear-tsv==1.1.0
     # via dataflows-tabulator
 linkify-it-py==2.1.0
     # via markdown-it-py
-litellm==1.80.5
+litellm==1.83.0
     # via acryl-datahub
 lkml==1.3.7
     # via acryl-datahub
@@ -839,7 +839,7 @@ mdit-py-plugins==0.5.0
     # via textual
 mdurl==0.1.2
     # via markdown-it-py
-memray==1.19.1
+memray==1.19.2
     # via acryl-datahub
 mistune==3.2.0
     # via
@@ -921,7 +921,7 @@ networkx==3.6.1 ; python_full_version >= '3.11'
     # via acryl-datahub
 nh3==0.3.3
     # via readme-renderer
-nltk==3.9.3
+nltk==3.9.4
     # via unstructured
 notebook==7.5.4
     # via acryl-great-expectations
@@ -1137,7 +1137,7 @@ pyarrow==18.0.0
     #   deltalake
     #   feast
     #   pyiceberg
-pyasn1==0.6.2
+pyasn1==0.6.3
     # via
     #   pyasn1-modules
     #   python-jose
@@ -1228,7 +1228,7 @@ pyparsing==3.3.2
     #   acryl-great-expectations
     #   pyiceberg
     #   rdflib
-pypdf==6.8.0
+pypdf==6.10.2
     # via unstructured-client
 pypdfium2==5.6.0
     # via unstructured-client
@@ -1242,7 +1242,7 @@ pyspark==3.5.8
     # via acryl-datahub
 pyspnego==0.12.1
     # via requests-ntlm
-pytest==9.0.2
+pytest==9.0.3
     # via
     #   acryl-datahub
     #   pytest-asyncio
@@ -1690,7 +1690,7 @@ toolz==1.1.0
     #   altair
     #   dask
     #   partd
-tornado==6.5.4
+tornado==6.5.5
     # via
     #   ipykernel
     #   jupyter-client
@@ -1868,7 +1868,7 @@ tzlocal==5.3.1
     #   trino
 uc-micro-py==2.0.0
     # via linkify-it-py
-ujson==5.11.0
+ujson==5.12.0
     # via acryl-datahub
 unicodecsv==0.14.1
     # via
